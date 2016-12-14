@@ -49,5 +49,9 @@ La siguiente función bloquea `submit` pues estamos enviando los elementos a tra
 
 Ejecutan la sentencia `SQL` como se haría normalmente.
 
+##Referencias
+
+[Tutorial](http://technotip.com/2208/insert-data-into-mysql-jquery-ajax-php/)
+
 
 

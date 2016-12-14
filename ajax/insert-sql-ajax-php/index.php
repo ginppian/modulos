@@ -8,25 +8,12 @@
 </head>
 <body>
 
-<!-- 	<form id="myForm" action="insert.php" method="post">
-
-		nom_asis  : <input name="nom_asis" type="text"/>
-		tipo_asist: <input name="tipo_asist" type="text"/>
-		id_grado  : <input name="id_grado" type="text"/>
-		matricula : <input name="registro" type="text"/>
-
-		<button id="sub">Save</button>
-	</form>
-	<span id="result"></span><div class="bootstrap-iso"> -->
-
-
-
 
  <div class="container-fluid">
   <div class="row vertical-offset-100">
    <div class="col-md-4 col-md-offset-4">
-<!--     <form action="script-insertar.php" method="post" enctype="multipart/form-data">
- -->
+
+
  <form id="myForm" action="insert.php" method="post">
      <div  class="form-group">
       <label class="control-label " for="name">
@@ -123,38 +110,6 @@
       <label class="control-label " for="select1">
        Semestre
       </label>
-<!--       <select class="select form-control" id="id_grado" name="id_grado">
-       <option value=" 1er. Semestre">
-        1er. Semestre
-       </option>
-       <option value=" 2do. Semestre">
-        2do. Semestre
-       </option>
-       <option value=" 3er. Semestre">
-        3er. Semestre
-       </option>
-       <option value=" 4to. Semestre">
-        4to. Semestre
-       </option>
-       <option value=" 5to. Semestre">
-        5to. Semestre
-       </option>
-       <option value=" 6to. Semestre">
-        6to. Semestre
-       </option>
-       <option value=" 7mo. Semestre">
-        7mo. Semestre
-       </option>
-       <option value=" 8vo. Semestre">
-        8vo. Semestre
-       </option>
-       <option value=" 9no. Semestre">
-        9no. Semestre
-       </option>
-       <option value="10mo. Semestre">
-        10mo. Semestre
-       </option>
-      </select> -->
       <select class="select form-control" id="id_grado" name="id_grado">
          <option value="1">
           1
@@ -204,35 +159,6 @@
         <input class="form-control" id="registro" name="registro" placeholder="201634124" type="text"/>
       </div>
     </div>
-
-
-
-<!--      <div class="form-group" id="tipo_asist">
-      <label class="control-label requiredField" for="radio">
-       Tipo
-        <span class="asteriskField ">
-        *
-        </span>
-      </label>
-      <div class="">
-       <label class="radio-inline">
-        <input name="tipo_asist" type="radio" value="Alumno"/>
-        Alumno
-       </label>
-       <label class="radio-inline">
-        <input name="tipo_asist" type="radio" value="Docente"/>
-        Docente
-       </label>
-       <label class="radio-inline">
-        <input name="tipo_asist" type="radio" value="Posgrado"/>
-        Posgrado
-       </label>
-       <label class="radio-inline">
-        <input name="tipo_asist" type="radio" value="Interesado"/>
-        Interesado
-       </label>
-      </div>
-     </div> -->
      <div class="form-group" id="tipo_asist">
       <label class="control-label requiredField" for="radio">
        Tipo
@@ -264,25 +190,15 @@
       	<button class="btn btn-primary btn-block" id="sub">
       		<span class="glyphicon glyphicon-cloud-upload"></span> Subir
       	</button>
-        <!-- 
-          <input class="btn btn-success btn-block" type="submit" value="Registro" name="submit"> 
-        -->
      </div>
-
 
     </form>
    </div>
   </div>
  </div>
 </div>
+
 	<span id="result"></span><div class="bootstrap-iso">
-
-
-
-
-
-
-
 
 
 
