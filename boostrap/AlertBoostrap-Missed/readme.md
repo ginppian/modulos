@@ -3,5 +3,5 @@
 <img src="alertboostrap2.png" alt="HTML5 Icon" >
 
 ##Descripción
-Agregamos 
+Esta alerta se hace con CSS en conjunto con Javascript y las funcionalidades de Boostrap.
 
