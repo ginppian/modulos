@@ -16,7 +16,6 @@
 	  <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
 	</div>
 
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
@@ -28,19 +27,6 @@
 	setTimeout( function(){ 
 		$('#myAlert').delay(1000).fadeOut("slow", function () { $(this).remove(); });
 	}  , 1000 );
-
-
-
-
-
-
-
-// 	function newAlert (type, message) {
-//     $("#alert-area").append($("<div class='alert-message " + type + " fade in' data-alert><p> " + message + " </p></div>"));
-//     $(".alert-message").delay(2000).fadeOut("slow", function () { $(this).remove(); });
-// }
-// newAlert('success', 'Oh yeah!');
-
 </script>
 
 
